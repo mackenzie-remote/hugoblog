@@ -1,0 +1,22 @@
+# Base URL used when generating links to your pages
+# Set to the URL for your site
+baseURL = "https://example.com"
+
+# The name of this wonderful theme ;-).
+theme = 'hugo-bearblog'
+
+title = "MacKenzie's Blog"
+author = "MacKenzie"
+languageCode = "en-US"
+enableRobotsTXT = false
+
+disableKinds = ["home"]
+#ignoreErrors = ["error-disable-taxonomy"]
+
+[params]
+  description = "MacKenzie's Blog"
+  favicon = "images/favicon.png"
+  images = ["images/share.png"]
+  title = "MacKenzie's Blog"
+  hideMadeWithLine = true
+  dateFormat = "2006-01-02"
