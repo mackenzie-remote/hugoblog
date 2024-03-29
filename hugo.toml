@@ -1,6 +1,7 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://example.com"
+baseURL = "https://blue-surf-7144.fly.storage.tigris.dev"
+uglyURLs = false
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
@@ -20,3 +21,9 @@ disableKinds = ["home"]
   title = "MacKenzie's Blog"
   hideMadeWithLine = true
   dateFormat = "2006-01-02"
+
+[deployment]
+
+[[deployment.targets]]
+name = "dev"
+URL = "s3://blue-surf-7144?region=auto&endpoint=https://fly.storage.tigris.dev&profile=tigris"
