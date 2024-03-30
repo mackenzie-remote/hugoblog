@@ -1,6 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://blue-surf-7144.netlify.app"
+baseURL = "https://blog.amen6.com"
 uglyURLs = false
 
 # The name of this wonderful theme ;-).
