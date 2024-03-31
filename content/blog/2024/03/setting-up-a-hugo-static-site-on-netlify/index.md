@@ -1,9 +1,9 @@
 +++
-title = "Setting Up a Hugo Static Site on Netlify"
+title = "Hugo: Setting Up A Hugo Static Site on Netlify"
 date = "2024-03-30T19:57:07-03:00"
 tags = ["tech"]
-
 +++
+
 ## Introduction
 
 I followed [this guide on Hugo's website](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) and it was pretty painless.
