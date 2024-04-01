@@ -1,7 +1,7 @@
 +++
 title = "Hosting a Static Site on a Fly.io Tigris Bucket"
 date = "2024-03-29T14:28:18-03:00"
-tags = ["tech"]
+tags = ["tech", "meta"]
 draft = true
 +++
 

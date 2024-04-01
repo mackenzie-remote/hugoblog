@@ -1,7 +1,7 @@
 +++
 title = "Hugo: Enabling Full Text RSS Feed"
 date = "2024-03-31T19:04:08-03:00"
-tags = ["tech"]
+tags = ["tech", "meta"]
 +++
 
 Blogs about blogging software... such a cliché I know!
