@@ -21,6 +21,7 @@ disableKinds = ["home"]
   title = "MacKenzie's Blog"
   hideMadeWithLine = true
   dateFormat = "2006-01-02"
+  contactEmail = ""
 
 [deployment]
 
