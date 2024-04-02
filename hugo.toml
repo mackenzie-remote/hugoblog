@@ -17,7 +17,7 @@ disableKinds = ["home"]
 [params]
   description = "MacKenzie's Blog"
   favicon = "images/favicon.png"
-  images = ["images/share.png"]
+  images = ["images/share2.png"]
   title = "MacKenzie's Blog"
   hideMadeWithLine = true
   dateFormat = "2006-01-02"
