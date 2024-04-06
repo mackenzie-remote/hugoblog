@@ -1,6 +1,7 @@
 +++
-title = "How To Get A New IP Address From Bell Aliant with OpenWrt"
+title = "How To Get A New Random IP Address From Bell Aliant with OpenWrt"
 date = "2024-04-06T16:03:07-03:00"
+slug = "how-to-get-a-new-random-ip-address-from-bell-aliant-openwrt"
 tags = ["tech"]
 +++
 
