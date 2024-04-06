@@ -6,19 +6,17 @@ tags = ["tech"]
 
 ## Introduction
 
-When I moved to Canada I brought with me my old [TP-Link Archer C7 v2](https://openwrt.org/toh/tp-link/archer_c7) router. I brought it more so I didn't have to throw it out, and didn't expect I'd use it, as it was already pretty old by this point (I bought it in 2016, and this was 2021). I thought "maybe I'll just use whatever router my new ISP gives me".
+I'm a bit of a privacy geek, and it would be nice if I could have a non-static home IP address without using a sketchy VPN service.
 
-Well, it turns out that the router that my new ISP gave me was pretty garbage, the unloved **Home Hub 3000** (hereafter referred to as HH3K). I tried for a long time to use it, but it was unreliable, and the WiFi wasn't even very good either.
+With most cable/fibre home internet connections (BellAliant included) you end up with a fairly static IP address. The only times I can remember my IP changing naturally is after extended power outages.
 
-So reluctantly I dug out the **Archer C7**, flashed the latest version of OpenWrt, and put the **HH3K** into Bridge mode.
+This post documents my discovery and experience of scripting a way to semi-reliably get a new IP address on my BellAliant connection with my OpenWrt router.
 
-The default bridge mode on the **HH3K** lumbers you with Double NAT (yuck, gross). There is an option to do Layer-2 bridging, but my experience with it is that it would work until there was a network or power outage, and it would not work again until an unlucky human disabled and reenabled bridge mode on the **HH3K**'s WebUI... Nope!
+## Set-Up
 
-So I followed a guide for **Bypassing HH3K** online (can't remember which one), but it involves removing the SFP module from your **HH3K** and putting it in a **SFP to RJ45 Fiber Media Converter** (sold separately), then plugging the OpenWrt router's WAN port into the this device and getting a delicious WAN DHCP IP address.
+First this guide assumes that you have a bypassed your **Home Hub 3000** by putting it's SFP in a **SFP to RJ45 Fiber Media Converter** and have an RJ45 cable connected to the WAN port of your OpenWrt router. There are guides and YouTube videos online. The upshot is that you have an interface called `wan` that get's it's IP address via DHCP.
 
 ## Get A Random IP Address with OpenWrt
-
-I'm a bit of a privacy geek, and like most cable/fibre home internet connections you end up with a fairly static IP address. The only times I can remember my IP changing naturally is after extended power outages.
 
 I had to experiment a bit to get this working, as Bell with almost always give you the same DHCP lease back no matter what you do, besides disconnecting your internet for the length of the DHCP lease (which is pretty long).
 
@@ -49,7 +47,6 @@ and here is `wan_ip_changer.sh`
 
 OLD_IP="$(cat /tmp/wan_ip.txt)"
 CURRENT_IP="$(ifstatus wan | jsonfilter -e '@["ipv4-address"][0].address')"
-ORIGINAL_HOSTNAME="OpenWrt"
 NEW_HOSTNAME="OpenWrt$(date +%d%H%M)"
 
 if [[ "${OLD_IP}" == "${CURRENT_IP}" ]]; then
@@ -64,9 +61,7 @@ if [[ "${OLD_IP}" == "${CURRENT_IP}" ]]; then
     echo -en "IP did NOT change ${OLD_IP}\n"
   else
     echo -en "IP CHANGED ${OLD_IP} to ${NEW_IP}\n"
-    uci set network.wan.hostname="${ORIGINAL_HOSTNAME}"
-    uci commit network
-    wan_ddns.sh ## this calls my Dynamic DNS update script
+    ## Good place to call your Dynamic DNS update script if you have one!
   fi
 else
   echo "No-op"
@@ -116,6 +111,6 @@ I did scare myself once when my this script ran during an BellAliant outage... I
 
 I tried to architect this in a way not to piss off or abuse my ToS on Bell, this seems pretty fair to me:
 
-* I'm `DHCPRELEASE`ing my old IP before asking for a new one.
-* (I'm sure there are way more unintentionally broken DHCP clients hammering Bell's DHCP servers).
 * I could run this every minute, but I only call it a few times per-hour.
+* I'm `DHCPRELEASE`ing my old IP before asking for a new one.
+* .. and I'm sure there are way more unintentionally broken DHCP clients hammering Bell's DHCP servers 24/7.
