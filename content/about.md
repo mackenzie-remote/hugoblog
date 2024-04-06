@@ -8,7 +8,7 @@ menu = "main"
 
 My name is MacKenzie and I've made the unfortunate decision to start a blog.
 
-I'm a gray-haired 40-something-year-old white male tech worker, originally from the UK and now living in Canada.
+I'm a gray-haired 40-something-year-old white male tech worker, originally from the UK and now living in Halifax, Nova Scotia, Canada.
 
 I last had a blog (or at least.. a website) in the late 90s when I was addicted to Quake.
 
