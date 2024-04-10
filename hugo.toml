@@ -10,6 +10,7 @@ title = "MacKenzie's Blog"
 author = "MacKenzie"
 languageCode = "en-US"
 enableRobotsTXT = false
+enableEmoji = true
 
 disableKinds = ["home"]
 #ignoreErrors = ["error-disable-taxonomy"]

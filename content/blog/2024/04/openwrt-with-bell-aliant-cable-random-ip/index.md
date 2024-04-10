@@ -98,9 +98,9 @@ root@OpenWrt:~# logread  | grep wan_ip
 
 I kept a log on IP changes and I after crunching the data I can see that over the last 7 months that this has been running that:
 
-1. 81% of the time I get a new IP address overnight 🎉
-2. 13% of the time I get a new IP address on the second day 🤷‍♀️
-3. ~5% of the time it takes 2 to 5 days before I get a new IP address 🙈
+1. 81% of the time I get a new IP address overnight :tada:
+2. 13% of the time I get a new IP address on the second day :woman_shrugging:
+3. ~5% of the time it takes 2 to 5 days before I get a new IP address :see_no_evil:
 
 The longest stretch has been 5 days without an IP change.
 

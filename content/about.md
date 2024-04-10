@@ -4,7 +4,7 @@ date = 2024-03-29T10:04:35-03:00
 menu = "main"
 +++
 
-## Hello 👋
+## Hello :wave:
 
 My name is MacKenzie and I've made the unfortunate decision to start a blog.
 
