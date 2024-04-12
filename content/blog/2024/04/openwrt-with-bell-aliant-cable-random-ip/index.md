@@ -23,13 +23,13 @@ I had to experiment a bit to get this working, as Bell with almost always give y
 
 I found the simplest way to get a new DHCP address from Bell is to send a different `hostname` in the `DHCPDISCOVER` packet.
 
-The complexity though is that you have ask a completely random number of times before Bell will give allocate you a different IP address. So I wrote a script that is designed to be run multiple times until you do get a new IP address.
+The complexity though is that you have ask a completely random number of times before Bell will allocate you a different IP address. So I wrote a script that is designed to be run multiple times until you do get a new IP address.
 
 Steps:
 
 0. Check if the IP has already changed, if it has, it's a no-op.
 1. Change the `Hostname` to a semi-random one.
-2. Call `ifup wan` which takes the interface DOWN (which does a `DHCPRELEASE` on my old IP) then brings up back UP and sends a `DHCPDISCOVER` with the new hostname.
+2. Call `ifup wan` which takes the interface DOWN (which does a `DHCPRELEASE` on my old IP) then brings it back UP and sends a `DHCPDISCOVER` with the new hostname.
 3. Wait 30 seconds and check if the IP address changed or not.
 
 The script is then run from `cron` several times an hour during the night. I only do it overnight as it will disrupt existing network connections briefly. The majority of the times we call it we don't get a new IP address, but we keep trying.
