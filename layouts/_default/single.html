@@ -18,5 +18,7 @@
   {{ end }}
 </p>
 {{ $subjectEscaped := replace .Title " " "-" | urlquery }}
-I love getting emails - please email me about this post <a href="mailto:{{ .Site.Params.contactEmail }}?subject=Reply%20to:%20{{ $subjectEscaped }}">here</a>
+<hr>
+<p>I love getting emails - please email me about this post <a href="mailto:{{ .Site.Params.contactEmail }}?subject=Reply%20to:%20{{ $subjectEscaped }}">here</a></p>
+Connect with me on The Fediverse <a href="https://mastodon.social/@kenzeh">@kenzeh@mastodon.social</a>
 {{ end }}
