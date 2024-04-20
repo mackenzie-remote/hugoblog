@@ -131,3 +131,7 @@ Your next step would be to go to the *Rollback* plan. The problem was that the *
 3. An actual working Rollback Plan (Rare).
 
 :woman_facepalming:
+
+## Continued
+
+Here in [Part 2](/blog/2024/04/story-time-job-03-p2-big-nhs-project/)
