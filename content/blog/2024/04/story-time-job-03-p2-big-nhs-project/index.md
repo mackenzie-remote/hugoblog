@@ -48,7 +48,7 @@ I did hear through the grapevine about what the *actual* process was:
 I was not learning anything in this job and it was horrendously boring, *and* it looked like the [Big Consulting Company was planning to quit the NHS contract entirely](https://www.theregister.com/2006/09/28/accenture_failure_success/) and offload it to someone else.
 
 So I jumped ship and handed my notice in. I got a slew of emails from HR, two of which I remember:-
-1. An email with LOTS OF ALL CAPS warning me on pain of **DEATH** me not to **DESTROY** any data and to **RETURN** my hard drive to *Address in Chicago, IL, USA*. This was related to an expected Shareholder Lawsuit related to the eye watering *FOUR HUNDRED AND FIFTY MILLION DOLLARS ($450M)* in losses they had made on the NHS contract.
+1. An email with LOTS OF ALL CAPS warning me on pain of **DEATH** not to **DESTROY** any data and to **RETURN** my hard drive to *Address in Chicago, IL, USA*. This was related to an expected Shareholder Lawsuit related to the eye watering *FOUR HUNDRED AND FIFTY MILLION DOLLARS ($450M)* in losses they had made on the NHS contract.
 
 > I replied saying "I'm not returning it to you in Chicago, IL, if you want it you can come and get it from *Leeds, England*."
 
