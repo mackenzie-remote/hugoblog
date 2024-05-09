@@ -11,11 +11,11 @@ ifeq ($(origin .RECIPEPREFIX), undefined)
 endif
 .RECIPEPREFIX = >
 
+.PHONY: updaterobots
 updaterobots:
 > curl -sSL \
   https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt \
   -o static/robots.txt
-.PHONY: updaterobots
 
 FINDFILES=find public/ -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' -o -name '*.xml' -o -name '*.svg' \)
 .PHONY: compress
@@ -23,9 +23,14 @@ compress:
 > ${FINDFILES} -exec gzip -v -k -f --best {} \;
 > ${FINDFILES} -exec brotli -v -k -f --best {} \;
 
-.PHONY: build hugo
+.PHONY: gitpull
+gitpull:
+> git pull
+
+.PHONY: hugo
 hugo:
 > echo using contactEmail - ${HUGO_PARAMS_contactEmail}
 > hugo --gc --minify
 
-build: hugo compress
+.PHONY: build
+build: gitpull hugo compress
