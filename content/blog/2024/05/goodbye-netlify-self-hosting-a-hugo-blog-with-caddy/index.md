@@ -156,3 +156,5 @@ https://blog.amen6.com {
 4. Serve `precompressed br gzip` copies of my compressible static assets to save CPU cycles / time.
 
 Et Voila! You are reading this website courtesy of the above. It's not got a CDN, or a WAF, it's a single box. (Mastodon please don't give me a [hug of death](https://news.itsfoss.com/mastodon-link-problem/)!)
+
+**EDIT**: I just timed a minor tweak and from `git push` to the new files being deployed took 2 seconds! That is some speed (lack-of) Continuous Integration! :smile:
