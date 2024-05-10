@@ -39,7 +39,13 @@ To deploy the site we run checkout the git repo on the server, cd into it and `m
 0. Error if we haven't set `HUGO_PARAMS_contactEmail` - see [Email Me Your Comments](/blog/2024/04/email-me-your-comments/) for the logic behind that.
 1. `git pull` to update our git repo (remember, we've probably been invoked by a webhook telling us something has changed it git!)
 2. `hugo` build to the `public/` dir.
-3. Create `.gz` and `.br` and versions of the compressible static assets alongside the uncompressed versions in `public/`.
+3. Create `.gz` and `.br` and versions of the compressible static assets alongside the uncompressed versions in `public/`. eg:
+```shell
+public
+├── index.html
+├── index.html.br
+└── index.html.gz
+```
 
 ## GitHub Webhook Support
 
@@ -113,6 +119,8 @@ Last but not least.. something to serve the damn website!
 
 > I've chosen [Caddy](https://caddyserver.com/) mainly as a way to learn a bit more about it. My go-to web server has been the venerable [Nginx](https://en.wikipedia.org/wiki/Nginx#History) for the past decade, but it seems to be getting long in the tooth, and it's now owned by **F5, Inc** (which gives me flashbacks to past jobs where "put an F5-loadbalancer in front of it" was the knee-jerk answer to any problem..), **and** one of it's core developers has [fired shots at the corporate owners](https://www.phoronix.com/news/Nginx-Forked-To-Freenginx) of Nginx and forked the project.
 
+### Performance
+
 So.. the website is pretty performant already, being a static site with an extremely minimal theme, but I've made sure to optimise it as best I can. Here is the base `Caddyfile`.
 
 ```Caddy
@@ -147,4 +155,4 @@ https://blog.amen6.com {
 3. Set 1-year `Cache-Control` headers on static assets.
 4. Serve `precompressed br gzip` copies of my compressible static assets to save CPU cycles / time.
 
-Et Voila! You are reading this website courtesy of the above. It's not got a CDN, or a WAF, it's a single box. (Mastodon please don't give me a [hug of death](https://news.itsfoss.com/mastodon-link-problem/)!
+Et Voila! You are reading this website courtesy of the above. It's not got a CDN, or a WAF, it's a single box. (Mastodon please don't give me a [hug of death](https://news.itsfoss.com/mastodon-link-problem/)!)
