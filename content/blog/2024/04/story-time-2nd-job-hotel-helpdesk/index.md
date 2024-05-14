@@ -1,5 +1,5 @@
 +++
-title = "Story Time: 2nd Job Helpdesk for a Hotel"
+title = "Story Time: Job #2: Helpdesk for a Hotel"
 date = "2024-04-15T17:25:33-03:00"
 tags = ["storytime"]
 +++
