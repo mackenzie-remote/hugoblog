@@ -42,7 +42,7 @@ So... I did. I spent a couple of months working through the book, reading what I
 
 I was happy that I finally got the certification, but I was told the MD didn't want to give me the £500 payrise as my contract said, as he said I had to get it within 6 months of starting, and this was *8 months* since I joined..
 
-I was fuming, as they had kept me hanging on waiting for the training, and I was seriously prepared to walk out over this... they relented but I got a patronizing finger-wagging
+I was fuming, as they had kept me hanging on waiting for the training, and I was seriously prepared to walk out over this... they relented but I got a patronizing finger-wagging:
 
 *"Okay, you can have it, but we're letting you off, keep your end of the bargain next time though.."* :angry:
 
@@ -69,11 +69,11 @@ I was at the company for about a year and a half in total, and I saw 5 Sales peo
 
 1. The Sales Guy Who Didn't Have A Single Sale (after a year working there)
 
-He was caught one afternoon in the pub around the corner from the office after telling us his boss he was going out "to client site" :beer:. We were told the story after witnessing a stand-up argument in our open plan office, after which he stormed out and never came back.
+He was caught one afternoon in the pub around the corner from the office after saying he was heading out "to a client site" :beer:. We were told the story after witnessing a stand-up argument in our open plan office, after which he stormed out and never came back.
 
 2. The Sales Guy Who Didn't Come Back After His First Day
 
-He was a smart one, he must've done the maths on his lack of prospective commission after seeing the tumbleweeds in our *Customer Relationship Management* database.
+He was a smart one, he must've done the maths on his lack of prospective commission after seeing the tumbleweeds in the *Customer Relationship Management* database.
 
 3. The Sales Guy Who Didn't Have Transport
 
@@ -92,3 +92,7 @@ He was fired in the latter days of the company's downward trajectory, with the *
 5. The Sales Guy Who Was Actually The Managing Director
 
 He was not a good Sales Person, and we all knew the company was doomed (foreshadowing!)
+
+## To Be Continued
+
+There were lots of stories from this job..
