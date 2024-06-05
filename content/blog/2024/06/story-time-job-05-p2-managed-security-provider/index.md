@@ -54,7 +54,7 @@ I checked the MX records for `travelcustomer.domain` during this outage and they
 
 They were evidently trying to move their incoming MX to Messagelabs, but had actually messed up the DNS change, and their new *primary* MX didn't resolve... so our *backup MX* was now the only working MX... So we had been receiving every *legit* and every *spam* email for them (many times our usual load), and then to add salt to the wound, as the *primary MX* was still down, we couldn't even deliver their emails and they filled up our mail queue.
 
-I got in touch with the customer and asked them to fix their MX records, which they said they would, but I had no idea how I was going to resurect our mx servers. The DNS change had a long TTL so even after they fixed the DNS change, it was still going to be cached for a while, and even if we stemmed the bleeding the MXes had so many emails stuck in the queue that it would never clear down.
+I got in touch with the customer and asked them to fix their MX records, which they said they would, but I had no idea how I was going to resurrect our mx servers. The DNS change had a long TTL so even after they fixed the DNS change, it was still going to be cached for a while, and even if we stemmed the bleeding the MXes had so many emails stuck in the queue that it would never clear down.
 
 Sendmail stores it's emails in a spool folder - so I stopped Sendmail and tried to look at the files on disk:
 
@@ -115,15 +115,15 @@ I expensed the O'Reilly Sendmail book, and when it arrived in the office I was s
 
 > NOPE! NOPE! NOPE!
 
-I read enough of to find out that Sendmail had two different types of configuration, the old, deprecated method, and the *new method*. If you used the *new method* it would be a cleaner, more readable config, that would generate the *old method* files, that you definitely did not touch!
+I read enough of it to find out the basics of Sendmail's config language(s), the old, deprecated method, and the *new method*. If you used the *new method* it would be a cleaner, more readable config, that would compile down to the *old method* files, that you *should not touch*!
 
-I checked our `mx1` server and found, of course, we used the *old method*... better yet at the top of the file was:
+I checked our `mx1` server and found, of course, we used the *old method*... and better yet at the top of the file was:
 
 ```sendmail
 # COPYRIGHT (C) 1996 [COMPANY FOUNDER'S NAME]
 ```
 
-Followed by the utter gibberish config that ancient Sendmail used, that made [perl golf](https://thospel.home.xs4all.nl/golf/midigolf1.html) code look readable:
+Followed by the utter gibberish config that ancient Sendmail used (it makes [perl golf](https://thospel.home.xs4all.nl/golf/midigolf1.html) code look like well written, readable code).
 
 ```
 # etherhost.uucp is treated as etherhost.$m for now.
@@ -147,7 +147,7 @@ R$+<@$-.uucp>           $#uucp  $@$2 $:$1      user@host.uucp
 R$*<@$*.$+>$*           $#$M    $@$R $:$1<@$2.$3>$4    user@any.domain
 ```
 
-I quietly put the Sendmail book on the office bookshelf and expensed the O'Reilly Postfix book, and this clocked in at a very lightweight 300 pages.
+I quietly jammed the Sendmail book on the office bookshelf and expensed the O'Reilly Postfix book (this clocked in at a very lightweight, by comparison, 300 pages).
 
 ## OpenBSD (and me) to the Rescue!
 
@@ -165,7 +165,7 @@ After all this effort, one of our employees (who owned the most-spammed email ad
 
 ## Conclusion
 
-I spent a huge portion of my day for over a year just reading through the email logs, looking for false positives, false negatives, weaking this, adjusting that...
+I spent a huge portion of my day for over a year just reading through the email logs, looking for false positives, false negatives, tweaking this, adjusting that...
 
 I learned so much, and it was amazing for my personal and professional knowledge. My next 6 years of jobs touched email in some way - eventually that knowledge became less relevant for work (everyone eventually moved to Google/Microsoft)
 
