@@ -95,4 +95,4 @@ He was not a good Sales Person, and we all knew the company was doomed (foreshad
 
 ## To Be Continued
 
-There were lots of stories from this job..
+There were lots of stories from this job.. [See Part 2](/blog/2024/06/story-time-job-05-p2-managed-security-provider/)

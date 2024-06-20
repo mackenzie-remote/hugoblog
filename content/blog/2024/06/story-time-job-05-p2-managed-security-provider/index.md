@@ -172,3 +172,5 @@ I learned so much, and it was amazing for my personal and professional knowledge
 The knowledge made me make the crazy decision back in 2012 to register my own domain and run my own email server... and I still do - 12 years and counting!
 
 Thank you, short-sighted *Managing Director*! :tada:
+
+There were lots of stories from this job.. [See Part 3](/blog/2024/06/story-time-job-05-p3-managed-security-provider/)
