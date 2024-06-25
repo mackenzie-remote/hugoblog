@@ -4,6 +4,8 @@ date = "2024-04-12T15:15:15-03:00"
 tags = ["tech"]
 +++
 
+{{< custom-toc >}}
+
 ## Introduction
 
 This is kind of a `#storytime` post, but also not. It's a retrospective of the Good, the Bad, and the Ugly choices I've seen over my twenty years of work, in regards to how companies choose to use and abuse their internal network numbering.

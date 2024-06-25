@@ -4,6 +4,8 @@ date = "2024-05-09T19:20:30-03:00"
 tags = ["meta","tech",]
 +++
 
+{{< custom-toc >}}
+
 ## Blogging About My Blog Set-Up (Part 2)
 
 I've previously blogged [about hosting this blog on Netlify](/blog/2024/03/setting-up-a-hugo-static-site-on-netlify/). That was working perfectly fine, I had no issues with Netlify (and still use them for various projects! :heart:) but I'm a sysadmin at heart, and I got the urge to tinker and self-host it, so here we go!

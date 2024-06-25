@@ -6,6 +6,8 @@ tags = ["storytime"]
 
 March 2008 – Oct 2009
 
+{{< custom-toc >}}
+
 ## Introduction
 
 As I said in the [last part](/blog/2024/05/story-time-job-05-p1-managed-security-provider/):

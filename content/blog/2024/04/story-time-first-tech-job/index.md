@@ -6,6 +6,8 @@ tags = ["storytime"]
 
 This covers ~mid-2003 to 2004.
 
+{{< custom-toc >}}
+
 ## Hello, Helpdesk. MacKenzie speaking (2003/04)
 
 When I graduated in the Summer of 2003 I was hoping for a bit of time off, lazing around on the dole. That.... didn't happen. I got my first tech job after about 5 or 6 weeks... and even more annoyingly it wasn't for a cool tech company, on a fast track.. I mean I got the top result at University..

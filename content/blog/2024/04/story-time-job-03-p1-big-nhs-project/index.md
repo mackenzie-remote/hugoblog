@@ -6,6 +6,8 @@ tags = ["storytime"]
 
 This covers March 2005 – May 2006.
 
+{{< custom-toc >}}
+
 **Good news**: I managed to [Escape The Damn Helpdesk](/blog/2024/04/story-time-2nd-job-hotel-helpdesk/)!
 
 **Bad news**: It looked impressive on paper, but I definitely lost skills rather than gained them.

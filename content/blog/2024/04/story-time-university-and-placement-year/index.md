@@ -4,6 +4,8 @@ date = "2024-04-09T20:58:15-03:00"
 tags = ["storytime"]
 +++
 
+{{< custom-toc >}}
+
 ## Introduction
 
 I have been working in tech for over twenty years :older_man:, and the last 4 have been fully remote. I prefer a lot of things about WFH vs In-Office, but one thing that I've realised I'm missing from `#officelife` is that I can no longer ~~bore~~ recount lessons, tell amusing anecdotes, cry into my beer over disasters etc etc.

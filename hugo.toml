@@ -29,3 +29,9 @@ disableKinds = ["home"]
 [[deployment.targets]]
 name = "dev"
 URL = "s3://blue-surf-7144?region=auto&endpoint=https://fly.storage.tigris.dev&profile=tigris"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

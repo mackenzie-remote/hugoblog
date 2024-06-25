@@ -6,6 +6,8 @@ tags = ["storytime"]
 
 This covers around September 2004 – March 2005.
 
+{{< custom-toc >}}
+
 ## Introduction
 
 This job was a mistake. I knew it was a big mistake after the first week. I only stayed 6 months. Even bad jobs teach you something. This job taught me.. How Not To Do Things.. I guess.

@@ -6,6 +6,8 @@ tags = ["storytime"]
 
 June 2006 – Sept 2007 (15 months)
 
+{{< custom-toc >}}
+
 ## Going Back
 
 I went back! To quote the end of [Story Time: My First Tech Job](/blog/2024/04/story-time-first-tech-job/)

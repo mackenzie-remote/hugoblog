@@ -6,6 +6,8 @@ tags = ["storytime"]
 
 Oct 2007 – March 2008
 
+{{< custom-toc >}}
+
 ## Be Careful What You Wish For..
 
 So, in our [last part](/blog/2024/04/story-time-job-04-p1-going-back-3rd-line-support/) I wrote about how I got promoted up to the halycon heights of the Infrastructure Team.

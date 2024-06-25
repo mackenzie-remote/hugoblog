@@ -5,6 +5,8 @@ slug = "how-to-get-a-new-random-ip-address-from-bell-aliant-openwrt"
 tags = ["tech"]
 +++
 
+{{< custom-toc >}}
+
 ## Introduction
 
 I'm a bit of a privacy geek, and it would be nice if I could have a non-static home IP address without using a sketchy VPN service.

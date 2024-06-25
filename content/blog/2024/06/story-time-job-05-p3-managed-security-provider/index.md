@@ -4,6 +4,8 @@ date = "2024-06-20T17:06:02-03:00"
 tags = ["storytime"]
 +++
 
+{{< custom-toc >}}
+
 ## Introduction
 
 Monitoring.. I had not had much exposure to monitoring so far in my career at this point. Either because I was on the Helpdesk and so our monitoring consisted of a user phoning us up to complain that *"$THING IS DOWN!!"*.. or because there was already a mature monitoring set-up (or monitoring was siloed off into their own team).

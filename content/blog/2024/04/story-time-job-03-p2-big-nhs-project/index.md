@@ -6,6 +6,8 @@ tags = ["storytime"]
 
 This is Part 2 - if you haven't already see [Part 1](/blog/2024/04/story-time-job-03-p1-big-nhs-project/)
 
+{{< custom-toc >}}
+
 ## Annual Performance Review
 
 One of the benefits of being on the 24/7 shift team, was that you felt kinda disconnected and outside of the politics and day to day grind of the Mon-Fri 9-5 workers. You would phase in and out of sync with the Mon-Fri lot, you would have an eclipse every so often when your two day shifts landed on the two weekend days. This meant you might not see our bosses face-to-face for the best part of 2 weeks. :smiley:
