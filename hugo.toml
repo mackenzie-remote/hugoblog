@@ -6,7 +6,7 @@ uglyURLs = false
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
 
-title = "MacKenzie's Blog"
+title = "Confessions of a SysAdmin"
 author = "MacKenzie"
 languageCode = "en-US"
 enableRobotsTXT = false
@@ -17,8 +17,8 @@ disableKinds = ["home"]
 
 [params]
   description = "MacKenzie's Blog"
-  favicon = "images/favicon.png"
-  images = ["images/share2.png"]
+  favicon = "images/favicon3.png"
+  images = ["images/share3.png"]
   title = "MacKenzie's Blog"
   hideMadeWithLine = true
   dateFormat = "2006-01-02"
