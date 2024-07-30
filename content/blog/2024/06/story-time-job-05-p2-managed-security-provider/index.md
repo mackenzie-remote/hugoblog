@@ -1,8 +1,10 @@
 +++
 title = "Story Time: Job #5: Part 2: Managed Security Provider - Email Is On Fire"
 date = "2024-06-05T12:59:08-03:00"
-tags = ["storytime"]
+tags = ["storytime", "job05"]
 +++
+
+This is **Part 2** of a long series, [click here to see all the parts](/tags/job05/).
 
 March 2008 – Oct 2009
 
