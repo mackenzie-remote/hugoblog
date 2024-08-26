@@ -1,4 +1,7 @@
 #!/bin/bash
+if [[ "${1}" != "" ]]; then
+  sleep $[ ( $RANDOM % ${1} )  + 1 ].$((RANDOM % 1000))
+fi
 set -euo pipefail
 
 ROBOTS_TXT="hugoblog/public/robots.txt"
