@@ -11,12 +11,6 @@ ifeq ($(origin .RECIPEPREFIX), undefined)
 endif
 .RECIPEPREFIX = >
 
-.PHONY: updaterobots
-updaterobots:
-> curl -sSL \
-  https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt \
-  -o static/robots.txt
-
 FINDFILES=find public/ -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' -o -name '*.txt' -o -name '*.xml' -o -name '*.svg' \)
 .PHONY: compress
 compress:
