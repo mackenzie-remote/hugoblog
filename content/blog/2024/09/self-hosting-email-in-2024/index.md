@@ -186,4 +186,4 @@ Would you recommend Self-Hosting Email in 2024?
 
 **Answer**: It works for me, but it's complicated and you might not see the benefits being worth the cost.
 
-The downsides to this approach is if you did migrate to your own domain, self-hosted email, if you ever wanted to give it up the more bespoke you have made your set-up, the more difficult (and expensive) it would be to migrate to a free/paid managed service.
+The downsides to this approach is if you did migrate to self-hosted email, the more bespoke make your set-up, the more difficult (and expensive) it would be to migrate to a managed service down the road.
