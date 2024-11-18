@@ -1,6 +1,6 @@
 +++
 title = "Story Time: Job #5: Part 1: Managed Security Provider"
-date = "2024-05-28T20:06:33-03:00"
+date = "2024-05-28"
 tags = ["storytime", "job05"]
 +++
 

@@ -1,6 +1,6 @@
 +++
 title = "Email Me Your Comments"
-date = "2024-04-01T17:12:59-03:00"
+date = "2024-04-01"
 tags = ["tech", "meta"]
 +++
 

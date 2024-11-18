@@ -1,6 +1,6 @@
 +++
 title = "Fetching RSS Feeds Respectfully With curl"
-date = "2024-11-09T13:56:24-04:00"
+date = "2024-11-09"
 tags = ["tech", "rss"]
 +++
 

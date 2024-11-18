@@ -1,6 +1,6 @@
 +++
 title = "Hugo: Setting Up A Hugo Static Site on Netlify"
-date = "2024-03-30T19:57:07-03:00"
+date = "2024-03-30"
 tags = ["tech", "meta"]
 +++
 

@@ -1,6 +1,6 @@
 +++
 title = "Goodbye Netlify: Self Hosting a Hugo Blog With Caddy"
-date = "2024-05-09T19:20:30-03:00"
+date = "2024-05-09"
 tags = ["meta","tech",]
 +++
 

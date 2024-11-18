@@ -1,6 +1,6 @@
 +++
 title = "Self Hosting Email in 2024"
-date = "2024-09-06T12:01:00-03:00"
+date = "2024-09-06"
 tags = ["tech", "selfhosting"]
 +++
 

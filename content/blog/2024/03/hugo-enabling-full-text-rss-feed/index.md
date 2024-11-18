@@ -1,6 +1,6 @@
 +++
 title = "Hugo: Enabling Full Text RSS Feed"
-date = "2024-03-31T19:04:08-03:00"
+date = "2024-03-31"
 tags = ["tech", "meta"]
 +++
 

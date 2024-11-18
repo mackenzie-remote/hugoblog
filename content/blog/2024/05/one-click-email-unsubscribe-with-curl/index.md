@@ -1,6 +1,6 @@
 +++
 title = "One-Click Email Unsubscribe.. with curl"
-date = "2024-05-15T23:00:00-03:00"
+date = "2024-05-15"
 tags = ["tech"]
 +++
 

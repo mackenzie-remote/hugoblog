@@ -1,6 +1,6 @@
 +++
 title = "Story Time: Job #4: Part 2: Promoted Then Poached"
-date = "2024-05-14T09:31:42-03:00"
+date = "2024-05-14"
 tags = ["storytime"]
 +++
 

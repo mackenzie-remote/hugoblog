@@ -1,6 +1,6 @@
 +++
 title = "Story Time: Job #3 Part 1: Big NHS Project: I Escaped The Helpdesk!"
-date = "2024-04-20T15:56:14-03:00"
+date = "2024-04-20"
 tags = ["storytime"]
 +++
 

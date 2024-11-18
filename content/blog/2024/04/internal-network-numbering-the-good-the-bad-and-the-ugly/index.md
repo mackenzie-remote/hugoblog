@@ -1,6 +1,6 @@
 +++
 title = "Internal Network Numbering: the Good the Bad and the Ugly"
-date = "2024-04-12T15:15:15-03:00"
+date = "2024-04-12"
 tags = ["tech"]
 +++
 

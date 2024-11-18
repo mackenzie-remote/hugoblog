@@ -1,6 +1,6 @@
 +++
 title = "First Post"
-date = "2024-03-29T13:41:11-03:00"
+date = "2024-03-29"
 +++
 
 So I decided to start a blog.. and fell into the usual trap of allowing perfect to be the enemy of good, and went down a rabbit hole of "Which Blog Software To Use?".
